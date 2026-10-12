@@ -45,7 +45,7 @@ ai-hackathon-gemini/
 
 ---
 
-##Proyectos Incluidos
+## Proyectos Incluidos
 
 ### 1. Urban Infrastructure Placer (`waste-container-placer/`)
 Optimiza la colocación de **6 contenedores (`C`)** para minimizar la distancia caminada por los residentes de todas las viviendas (`O`).
@@ -123,7 +123,7 @@ El resultado guardará el mapa final con las casillas `C` colocadas en la carpet
 
 ---
 
-##Tecnologías
+## Tecnologías
 
 * **Python 3**
 * **Google Gemini API:** `gemini-2.5-flash` para razonamiento rápido y preciso.
@@ -132,6 +132,6 @@ El resultado guardará el mapa final con las casillas `C` colocadas en la carpet
 
 ---
 
-##Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
