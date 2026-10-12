@@ -33,8 +33,6 @@ ai-hackathon-gemini/
 ├── .gitignore                          # Exclusiones de Git (claves, caches, salidas)
 ├── .env.example                        # Plantilla para la API Key de Gemini
 ├── LICENSE                             # Licencia MIT
-├── tests/
-│   └── test_smoke.py                   # Tests automatizados (ejecutables sin API key)
 ├── waste-container-placer/             # Reto 1: Contenedores urbanos
 │   ├── container_placer.py             # Script principal del agente
 │   ├── entradas/                       # Mapas oficiales del hackathon (1.txt a 4.txt)
@@ -47,7 +45,7 @@ ai-hackathon-gemini/
 
 ---
 
-## 🚀 Proyectos Incluidos
+##Proyectos Incluidos
 
 ### 1. Urban Infrastructure Placer (`waste-container-placer/`)
 Optimiza la colocación de **6 contenedores (`C`)** para minimizar la distancia caminada por los residentes de todas las viviendas (`O`).
@@ -79,7 +77,7 @@ Optimiza la ubicación de **6 transformadores eléctricos (`C`)** para abastecer
 
 ---
 
-## 🛠️ Instalación y Uso
+## Instalación y Uso
 
 ### 1. Requisitos previos
 * Python 3.10 o superior.
@@ -121,19 +119,11 @@ python power-grid-optimizer/power_grid_optimizer.py ejemplo_sintetico.txt --inte
 
 El resultado guardará el mapa final con las casillas `C` colocadas en la carpeta `salidas/` correspondiente y mostrará la puntuación y el tiempo transcurrido por pantalla.
 
----
 
-## 🧪 Tests Automatizados
-
-Puedes verificar toda la lógica de filtrado, algoritmos espaciales, validación de reglas y parser JSON sin consumir cuota de API ejecutando:
-
-```bash
-python tests/test_smoke.py
-```
 
 ---
 
-## 📦 Tecnologías
+##Tecnologías
 
 * **Python 3**
 * **Google Gemini API:** `gemini-2.5-flash` para razonamiento rápido y preciso.
@@ -142,6 +132,6 @@ python tests/test_smoke.py
 
 ---
 
-## 📄 Licencia
+##Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
