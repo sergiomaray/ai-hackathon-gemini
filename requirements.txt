@@ -1,0 +1,3 @@
+llama-index-core>=0.12.0
+llama-index-llms-google-genai>=0.4.0
+python-dotenv>=1.0.0
